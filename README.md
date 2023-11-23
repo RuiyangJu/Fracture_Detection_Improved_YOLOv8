@@ -27,7 +27,7 @@
 ```
 For example:
 ```
-  python imgaug.py --input_img ./GRAZPEDWRI-DX/data/images/train/ --output_img ./train/ --input_label ./GRAZPEDWRI-DX/data/labels/train/ --output_label ./labels/
+  python imgaug.py --input_img ./GRAZPEDWRI-DX/data/images/train/ --output_img ./GRAZPEDWRI-DX/data/train/ --input_label ./GRAZPEDWRI-DX/data/labels/train/ --output_label ./GRAZPEDWRI-DX/data/labels/
 ```
 
 ## Experiments
