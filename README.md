@@ -20,7 +20,7 @@ To split the dataset into training set, vvalidation set, and test set, you shoul
 
 ## Methodology
 ```
-  python imgaug.py
+  python imgaug.py --input E:/GRAZPEDWRI-DX/data/images/train/ --output C:/Users/AILab/Desktop/MIP/Augmentation
 ```
 
 ## Experiments
