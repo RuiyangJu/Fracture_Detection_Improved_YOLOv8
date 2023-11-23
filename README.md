@@ -62,6 +62,41 @@ For example:
 
 ## Experiments
 ### Model Training
+* meta.yaml
+Before training the model, make sure the path to the data in the `meta.yaml` file is correct.
+
+
+       GRAZPEDWRI-DX_dataset
+          └── data   
+               ├── meta.yaml
+               ├── images
+               │    ├── train
+               │    │    ├── train_img1.png
+               │    │    └── ...
+               │    ├── train_aug
+               │    │    ├── train_aug_img1.png
+               │    │    └── ...
+               │    ├── valid
+               │    │    ├── valid_img1.png
+               │    │    └── ...
+               │    └── test
+               │         ├── test_img1.png
+               │         └── ...
+               └── labels
+                    ├── train
+                    │    ├── train_annotation1.txt
+                    │    └── ...
+                    ├── train_aug
+                    │    ├── train_aug_annotation1.txt
+                    │    └── ...
+                    ├── valid
+                    │    ├── valid_annotation1.txt
+                    │    └── ...
+                    └── test
+                         ├── test_annotation1.txt
+                         └── ...
+
+
 * Arguments
 
 | Key | Value | Description |
