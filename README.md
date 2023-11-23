@@ -19,6 +19,7 @@ To split the dataset into training set, vvalidation set, and test set, you shoul
   ```
 
 ## Methodology
+* Data augmentation of the training set using the addWeighted function doubles the size of the training set.
 ### Data Augmentation
 ```
   python imgaug.py --input_img /path/to/input/train/ --output_img /path/to/output/train/ --input_label /path/to/input/labels/ --output_label /path/to/output/labels/
