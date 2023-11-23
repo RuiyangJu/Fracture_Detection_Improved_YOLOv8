@@ -23,6 +23,7 @@ To split the dataset into training set, vvalidation set, and test set, you shoul
 ```
   python imgaug.py --input_img /path/to/input/train/ --output_img /path/to/output/train/ --input_label /path/to/input/labels/ --output_label /path/to/output/labels/
 ```
+For example:
 ```
   python imgaug.py --input_img ./GRAZPEDWRI-DX/data/images/train/ --output_img ./train/ --input_label ./GRAZPEDWRI-DX/data/labels/train/ --output_label ./labels/
 ```
