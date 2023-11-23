@@ -38,6 +38,8 @@ For example:
 | model | None | path to model file, i.e. yolov8n.pt, yolov8n.yaml |
 | data | None | path to data file, i.e. coco128.yaml |
 | epochs | 100 | number of epochs to train for |
+
+
 | patience | 50 | epochs to wait for no observable improvement for early stopping of training |
 | batch | 16 | number of images per batch (-1 for AutoBatch) |
 | imgsz | 640 | size of input images as integer, i.e. 640, 1024 |
