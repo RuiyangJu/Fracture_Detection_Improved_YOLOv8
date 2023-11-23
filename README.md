@@ -33,13 +33,26 @@ For example:
 ## Experiments
 ### Model Training
 * Arguments
-```
--- model 
--- data 
--- epochs
-```
+| Key | Value | Description |
+| :---: | :---: | :---: |
+| model | None | path to model file, i.e. yolov8n.pt, yolov8n.yaml |
+| data | None | path to data file, i.e. coco128.yaml |
+| epochs | 100 | number of epochs to train for |
+| patience | 50 | epochs to wait for no observable improvement for early stopping of training |
+| batch | 16 | number of images per batch (-1 for AutoBatch) |
+| imgsz | 640 | size of input images as integer, i.e. 640, 1024 |
+| save | True | save train checkpoints and predict results |
+| device | None | device to run on, i.e. cuda device=0 or device=0,1,2,3 or device=cpu |
+| workers | 8 | number of worker threads for data loading (per RANK if DDP) |
+| pretrained | True | (bool or str) whether to use a pretrained model (bool) or a model to load weights from (str) |
+| optimizer | 'auto' | optimizer to use, choices=SGD, Adam, Adamax, AdamW, NAdam, RAdam, RMSProp, auto |
+| resume | False | resume training from last checkpoint |
+| lr0 | 0.01 | initial learning rate (i.e. SGD=1E-2, Adam=1E-3) |
+| momentum | 0.937 | 	SGD momentum/Adam beta1 |
+| weight_decay | 0.0005 | optimizer weight decay 5e-4 |
+| val | True | validate/test during training |
 
-For example, train yolov8n model:
+* For example, train yolov8n model:
 ```
   yolo train model=yolov8n.pt data=meta.yaml epochs=100 batch=16 imgsz=640 save=True workers=4 pretrained=yolov8n.pt optimizer=Adam lr0=0.001
 ```
