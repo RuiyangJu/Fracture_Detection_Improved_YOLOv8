@@ -144,7 +144,7 @@ Use gdown to download the trained model from our GitHub:
 | conf | 0.001 | object confidence threshold for detection |
 | iou | 0.6 | intersection over union (IoU) threshold for NMS |
 
-*CLI
+* CLI
 ```
   yolo val model=/path/to/best.pt data=/path/to/meta.yaml
 ```
