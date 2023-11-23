@@ -150,11 +150,6 @@ Use gdown to download the trained model from our GitHub:
 ```
 
 ## Application
-### Online Available
-You can access our app via the following URL:
-```
-https://fracture-detection-yolo.streamlit.app/
-```
 ### Run the App on the local
 * Use gdown to download the trained model from our GitHub:
 ```
@@ -164,3 +159,9 @@ https://fracture-detection-yolo.streamlit.app/
 ```
   streamlit run application.py
 ```
+### Online Available
+You can access our app via the following URL:
+```
+https://fracture-detection-yolo.streamlit.app/
+```
+
