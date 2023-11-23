@@ -124,6 +124,13 @@ Before training the model, make sure the path to the data in the `meta.yaml` fil
   cd MIP-Term-Project
   yolo train model=yolov8n.pt data=./GRAZPEDWRI-DX/data/meta.yaml epochs=100 batch=16 imgsz=640 save=True device=0 workers=4 pretrained=yolov8n.pt optimizer=SGD lr0=0.01
 ```
+
+### Trained Model
+Use gdown to download the trained model from our GitHub:
+```
+  gdown https://github.com/RuiyangJu/Bone_Fracture_Detection_YOLOv8/releases/download/Trained_Model/trained_model.zip
+```
+
 ### Performance Evaluation
 
 ```
