@@ -58,6 +58,11 @@ For example:
   yolo train model=yolov8n.pt data=meta.yaml epochs=100 batch=16 imgsz=640 save=True device=0 workers=4 pretrained=yolov8n.pt optimizer=SGD lr0=0.01
 ```
 ### Performance Evaluation
+
+```
+  yolo val model="/path/to/best.pt" data=meta.yaml
+```
+
 <p align="center">
   <img src="img/figure_640.jpg" width="640" title="640">
 </p>
@@ -65,9 +70,6 @@ For example:
 <p align="center">
   <img src="img/figure_1024.jpg" width="640" title="1024">
 </p>
-```
-  yolo val model="/path/to/best.pt" data=meta.yaml
-```
 
 ## Results & Analysis
 <p align="center">
