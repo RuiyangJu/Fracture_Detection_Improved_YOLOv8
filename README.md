@@ -137,14 +137,6 @@ Use gdown to download the trained model from our GitHub:
   yolo val model="/path/to/best.pt" data=meta.yaml
 ```
 
-<p align="center">
-  <img src="img/figure_640.jpg" width="640" title="640">
-</p>
-
-<p align="center">
-  <img src="img/figure_1024.jpg" width="640" title="1024">
-</p>
-
 ## Results & Analysis
 <p align="center">
   <img src="img/figure_result.jpg" width="640" title="result">
