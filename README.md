@@ -11,15 +11,16 @@
 
 ## Dataset
 ### Download the dataset
-You can download the GRAZPEDWRI-DX Dataset on this [Link](https://figshare.com/articles/dataset/GRAZPEDWRI-DX/14825193).
+* You can download the GRAZPEDWRI-DX Dataset on this [Link](https://figshare.com/articles/dataset/GRAZPEDWRI-DX/14825193).
 ### Split the dataset
-To split the dataset into training set, vvalidation set, and test set, you should first put the image and annotatation into `./GRAZPEDWRI-DX_dataset/data/images`, and `./GRAZPEDWRI-DX_dataset/data/labels`. And then you can split the dataset as the following step:
+* To split the dataset into training set, vvalidation set, and test set, you should first put the image and annotatation into `./GRAZPEDWRI-DX_dataset/data/images`, and `./GRAZPEDWRI-DX_dataset/data/labels`.
+* And then you can split the dataset as the following step:
   ```
     python split.py
   ```
 
 ## Methodology
-Data augmentation of the training set using the addWeighted function doubles the size of the training set.
+* Data augmentation of the training set using the addWeighted function doubles the size of the training set.
 ### Data Augmentation
 ```
   python imgaug.py --input_img /path/to/input/train/ --output_img /path/to/output/train/ --input_label /path/to/input/labels/ --output_label /path/to/output/labels/
