@@ -1,0 +1,17 @@
+# patch: /path/to/GRAZPEDWRI-DX/data
+path: 'E:/GRAZPEDWRI-DX/data'
+train: 'images/train_aug'
+val: 'images/valid'
+test: 'images/test'
+
+nc: 9
+names:
+  0: boneanomaly
+  1: bonelesion
+  2: foreignbody
+  3: fracture
+  4: metal
+  5: periostealreaction
+  6: pronatorsign
+  7: softtissue
+  8: text
