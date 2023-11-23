@@ -63,6 +63,7 @@ For example:
 ## Experiments
 ### Model Training
 * meta.yaml
+
 Before training the model, make sure the path to the data in the `meta.yaml` file is correct.
 
 
