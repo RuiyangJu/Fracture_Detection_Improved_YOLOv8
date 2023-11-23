@@ -137,12 +137,6 @@ Use gdown to download the trained model from our GitHub:
   yolo val model="/path/to/best.pt" data=meta.yaml
 ```
 
-## Results & Analysis
-<p align="center">
-  <img src="img/figure_result.jpg" width="640" title="result">
-</p>
-The prediction examples of our model on the pediatric wrist trauma X-ray images. (a) the manually labeled images, (b) the predicted images.
-
 ## Application
 ### Online Available
 You can access our app via the following URL:
