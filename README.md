@@ -156,7 +156,7 @@ Use gdown to download the trained model from our GitHub:
   gdown https://github.com/RuiyangJu/YOLOv8_CBAM_Fracture_Detection/releases/download/Example_Model/example_model.onnx
 ```
 
-* Before you run the webapp, you should put the `example_model.onnx` to the `webapp` floder.
+* Before you run the webapp, you should put the `example_model.onnx` to the `webapp` folder.
 * And then you can use this app on your local PC by running it in the following step:
 ```
   streamlit run application.py
