@@ -18,6 +18,12 @@ if __name__ == '__main__':
     input_labeldir = args.input_label
     output_labeldir = args.output_label
 
+    if not os.path.isdir(output_imgdir):
+        os.mkdir(output_imgdir)
+    
+    if not os.path.isdir(output_labeldir):
+        os.mkdir(output_labeldir)
+        
     for root, dirs, files in os.walk(input_imgdir):
         for name in files:
             img_name = os.path.join(name)
