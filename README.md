@@ -55,7 +55,7 @@ For example:
 
 * For example, train yolov8n model:
 ```
-  yolo train model=yolov8n.pt data=meta.yaml epochs=100 batch=16 imgsz=640 save=True workers=4 pretrained=yolov8n.pt optimizer=Adam lr0=0.001
+  yolo train model=yolov8n.pt data=meta.yaml epochs=100 batch=16 imgsz=640 save=True device=0 workers=4 pretrained=yolov8n.pt optimizer=SGD lr0=0.01
 ```
 ### Performance Evaluation
 <p align="center">
