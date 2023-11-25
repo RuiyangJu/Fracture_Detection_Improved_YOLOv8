@@ -161,7 +161,7 @@ Use gdown to download the trained model from our GitHub:
 ### Run the App on the local
 * Use gdown to download the trained model from our GitHub:
 ```
-  gdown https://github.com/RuiyangJu/YOLOv8_CBAM_Fracture_Detection/releases/download/Example_Model/example_model.onnx
+  gdown https://github.com/RuiyangJu/x-ray_fracture_detection_yolo/releases/download/Example_Model/example_model.onnx
 ```
 
 * Before you run the webapp, you should put the `example_model.onnx` to the `webapp` folder.
