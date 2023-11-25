@@ -106,6 +106,7 @@ Before training the model, make sure the path to the data in the `meta.yaml` fil
 ```
 
 * Arguments
+
 You can set the value in the `./ultralytics/cfg/default.yaml`.
 
 | Key | Value | Description |
