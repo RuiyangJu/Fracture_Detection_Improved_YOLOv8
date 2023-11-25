@@ -156,6 +156,10 @@ Use gdown to download the trained model from our GitHub:
 ```
   yolo val model=/path/to/best.pt data=/path/to/meta.yaml
 ```
+* For example:
+```
+  yolo val model=./best.pt data=./GRAZPEDWRI-DX/data/meta.yaml
+```
 
 ## Application
 ### Run the App on the local
