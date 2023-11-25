@@ -11,7 +11,7 @@ def parse_args():
 def main():
     args = parse_args()
     model = YOLO(args.model)
-    model.train(args.data_dir)
+    model.train(data=args.data_dir)
 
 if __name__ == '__main__':
     main()
