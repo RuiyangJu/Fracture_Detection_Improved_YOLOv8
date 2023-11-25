@@ -105,6 +105,7 @@ Before training the model, make sure the path to the data in the `meta.yaml` fil
 ```
 
 * Arguments
+You can set the value in the `./ultralytics/cfg/default.yaml`.
 
 | Key | Value | Description |
 | :---: | :---: | :---: |
@@ -139,7 +140,6 @@ Use gdown to download the trained model from our GitHub:
 
 ### Performance Evaluation
 * Arguments
-You can set the value in the `./ultralytics/cfg/default.yaml`.
 
 | Key | Value | Description |
 | :---: | :---: | :---: |
