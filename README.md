@@ -48,25 +48,7 @@
 
 
 The script will create 3 files: `train_data.csv`, `valid_data.csv`, and `test_data.csv` with the same structure of `dataset.csv`.
-
-## Methodology
-* Data augmentation of the training set using the addWeighted function doubles the size of the training set.
-### Data Augmentation
-```
-  python imgaug.py --input_img /path/to/input/train/ --output_img /path/to/output/train/ --input_label /path/to/input/labels/ --output_label /path/to/output/labels/
-```
-For example:
-```
-  python imgaug.py --input_img ./GRAZPEDWRI-DX/data/images/train/ --output_img ./GRAZPEDWRI-DX/data/images/train_aug/ --input_label ./GRAZPEDWRI-DX/data/labels/train/ --output_label ./GRAZPEDWRI-DX/data/labels/train_aug/
-```
-
-## Experiments
-* I have provided a training set, test set and validation set containing a single image that you can run directly by following the steps in the example below:
-### Model Training
-* meta.yaml
-
-Before training the model, make sure the path to the data in the `meta.yaml` file is correct.
-
+* The path of the processed file is shown below:
 
        GRAZPEDWRI-DX_dataset
           └── data   
@@ -97,6 +79,24 @@ Before training the model, make sure the path to the data in the `meta.yaml` fil
                     └── test
                          ├── test_annotation1.txt
                          └── ...
+                         
+## Methodology
+* Data augmentation of the training set using the addWeighted function doubles the size of the training set.
+### Data Augmentation
+```
+  python imgaug.py --input_img /path/to/input/train/ --output_img /path/to/output/train/ --input_label /path/to/input/labels/ --output_label /path/to/output/labels/
+```
+For example:
+```
+  python imgaug.py --input_img ./GRAZPEDWRI-DX/data/images/train/ --output_img ./GRAZPEDWRI-DX/data/images/train_aug/ --input_label ./GRAZPEDWRI-DX/data/labels/train/ --output_label ./GRAZPEDWRI-DX/data/labels/train_aug/
+```
+
+## Experiments
+* I have provided a training set, test set and validation set containing a single image that you can run directly by following the steps in the example below:
+### Model Training
+* meta.yaml
+
+Before training the model, make sure the path to the data in the `meta.yaml` file is correct.
 
 
 * Arguments
