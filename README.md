@@ -96,7 +96,13 @@ For example:
 * meta.yaml
 
 Before training the model, make sure the path to the data in the `meta.yaml` file is correct.
-
+```
+  # patch: /path/to/GRAZPEDWRI-DX/data
+  path: 'E:/GRAZPEDWRI-DX/data'
+  train: 'images/train_aug'
+  val: 'images/valid'
+  test: 'images/test'
+```
 
 * Arguments
 
