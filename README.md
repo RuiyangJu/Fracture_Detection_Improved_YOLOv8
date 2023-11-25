@@ -126,10 +126,9 @@ You can set the value in the `./ultralytics/cfg/default.yaml`.
 | weight_decay | 0.0005 | optimizer weight decay 5e-4 |
 | val | True | validate/test during training |
 
-* For example, train yolov8n model:
+* Train Step:
 ```
-  cd MIP-Term-Project
-  yolo train model=yolov8n.pt data=./GRAZPEDWRI-DX/data/meta.yaml epochs=100 batch=16 imgsz=640 save=True device=0 workers=4 pretrained=yolov8n.pt optimizer=SGD lr0=0.01
+  python start_train.py --model yolov8n.pt --data_dir ./GRAZPEDWRI-DX/data/meta.yaml
 ```
 
 ### Trained Model
