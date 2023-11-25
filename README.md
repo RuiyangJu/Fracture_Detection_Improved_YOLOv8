@@ -91,7 +91,7 @@ For example:
                          └── ...
   
 ## Experiments
-* I have provided a training set, test set and validation set containing a single image that you can run directly by following the steps in the example below:
+- ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) `I have provided a training set, test set and validation set containing a single image that you can run directly by following the steps in the example below:`
 ### Model Training
 * meta.yaml
 
