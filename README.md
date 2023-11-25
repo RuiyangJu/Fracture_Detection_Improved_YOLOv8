@@ -116,7 +116,7 @@ You can set the value in the `./ultralytics/cfg/default.yaml`.
 | batch | 16 | number of images per batch (-1 for AutoBatch) |
 | imgsz | 640 | size of input images as integer, i.e. 640, 1024 |
 | save | True | save train checkpoints and predict results |
-| device | None | device to run on, i.e. cuda device=0 or device=0,1,2,3 or device=cpu |
+| device | 0 | device to run on, i.e. cuda device=0 or device=0,1,2,3 or device=cpu |
 | workers | 8 | number of worker threads for data loading (per RANK if DDP) |
 | pretrained | True | (bool or str) whether to use a pretrained model (bool) or a model to load weights from (str) |
 | optimizer | 'auto' | optimizer to use, choices=SGD, Adam, Adamax, AdamW, NAdam, RAdam, RMSProp, auto |
