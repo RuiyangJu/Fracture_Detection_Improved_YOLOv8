@@ -163,12 +163,14 @@ Use gdown to download YOLOv8 trained model for validation:
 
 ## Application
 ### Run the App on the local
+* Before you run the webapp, you should put the `example_model.onnx` to the `webapp` folder.
+```
+  cd webapp
+```
 * Use gdown to download the example model for webapp:
 ```
   gdown https://github.com/RuiyangJu/x-ray_fracture_detection_yolo/releases/download/Example_Model/example_model.onnx
 ```
-
-* Before you run the webapp, you should put the `example_model.onnx` to the `webapp` folder.
 * And then you can use this app on your local PC by running it in the following step:
 ```
   streamlit run application.py
