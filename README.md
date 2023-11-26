@@ -134,7 +134,7 @@ You can set the value in the `./ultralytics/cfg/default.yaml`.
 ```
 
 ### Trained Model
-Use gdown to download the trained model from our GitHub:
+Use gdown to download YOLOv8 trained model for validation:
 ```
   gdown https://github.com/RuiyangJu/Bone_Fracture_Detection_YOLOv8/releases/download/Trained_model/best.pt
 ```
@@ -163,7 +163,7 @@ Use gdown to download the trained model from our GitHub:
 
 ## Application
 ### Run the App on the local
-* Use gdown to download the trained model from our GitHub:
+* Use gdown to download the example model for webapp:
 ```
   gdown https://github.com/RuiyangJu/x-ray_fracture_detection_yolo/releases/download/Example_Model/example_model.onnx
 ```
