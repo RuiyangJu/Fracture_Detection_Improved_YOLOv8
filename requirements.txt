@@ -23,3 +23,4 @@ py-cpuinfo
 PySide6
 thop>=0.1.1
 ultralytics
+timm
