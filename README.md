@@ -130,11 +130,11 @@ You can set the value in the `./ultralytics/cfg/default.yaml`.
 
 * Example Traning Steps (yolov8m):
 ```
-  python start_train.py --model ./ultralytics/cfg/models/v8/yolov8.yaml --data_dir ./GRAZPEDWRI-DX/data/meta.yaml
+  python start_train.py --model ./ultralytics/cfg/models/v8/yolov8m.yaml --data_dir ./GRAZPEDWRI-DX/data/meta.yaml
 ```
 * Example Traning Steps (yolov8m_GAM):
 ```
-  python start_train.py --model ./ultralytics/cfg/models/v8/yolov8_GAM.yaml --data_dir ./GRAZPEDWRI-DX/data/meta.yaml
+  python start_train.py --model ./ultralytics/cfg/models/v8/yolov8m_GAM.yaml --data_dir ./GRAZPEDWRI-DX/data/meta.yaml
 ```
 
 ## Application
