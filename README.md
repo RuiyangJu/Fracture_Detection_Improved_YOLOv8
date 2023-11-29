@@ -118,7 +118,7 @@ head:
 ```
   
 ## Experiments
-* I have provided a training set, test set and validation set containing a single image that you can run directly by following the steps in the example below
+* I have provided a training set, test set and validation set containing a single image that you can run directly by following the steps in the example below.
 
 ### Model Training
 * meta.yaml
