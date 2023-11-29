@@ -90,7 +90,7 @@ For example:
                          └── ...
   
 ## Methodology
-
+* I have modified the model architecture of YOLOv8 which adds Efficient Channel Attention (ECA). The detailed modified file can be checked in `./ultralytics/cfg/models/v8/yolov8_ECA.yaml`.
   
 ## Experiments
 * I have provided a training set, test set and validation set containing a single image that you can run directly by following the steps in the example below
