@@ -121,9 +121,7 @@ head:
 * I have provided a training set, test set and validation set containing a single image that you can run directly by following the steps in the example below.
 
 ### Model Training
-* `./GRAZPEDWRI-DX/data/meta.yaml`
-
-Before training the model, make sure the path to the data in the `./GRAZPEDWRI-DX/data/meta.yaml` file is correct.
+* Before training the model, make sure the path to the data in the `./GRAZPEDWRI-DX/data/meta.yaml` file is correct.
 ```
   # patch: /path/to/GRAZPEDWRI-DX/data
   path: 'E:/GRAZPEDWRI-DX/data'
