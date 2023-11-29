@@ -47,10 +47,9 @@
 
 
 The script will create 3 files: `train_data.csv`, `valid_data.csv`, and `test_data.csv` with the same structure of `dataset.csv`.
-                         
-## Methodology
-* Data augmentation of the training set using the addWeighted function doubles the size of the training set.
+                      
 ### Data Augmentation
+* Data augmentation of the training set using the addWeighted function doubles the size of the training set.
 ```
   python imgaug.py --input_img /path/to/input/train/ --output_img /path/to/output/train/ --input_label /path/to/input/labels/ --output_label /path/to/output/labels/
 ```
@@ -89,6 +88,9 @@ For example:
                     └── test
                          ├── test_annotation1.txt
                          └── ...
+  
+## Methodology
+
   
 ## Experiments
 * I have provided a training set, test set and validation set containing a single image that you can run directly by following the steps in the example below
