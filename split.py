@@ -7,9 +7,9 @@ import shutil
 
 if __name__ == "__main__":
 
-    img_dir = "./GRAZPEDWRI-DX_dataset/data/images"
-    ann_dir = "./GRAZPEDWRI-DX_dataset/data/labels"
-    df = pd.read_csv("./GRAZPEDWRI-DX_dataset/dataset.csv")
+    img_dir = "./GRAZPEDWRI-DX/data/images/"
+    ann_dir = "./GRAZPEDWRI-DX/data/labels/"
+    df = pd.read_csv("./GRAZPEDWRI-DX/dataset.csv")
 
     splitter1 = GroupShuffleSplit(test_size=.3, n_splits=2)
     split = splitter1.split(df, groups=df["patient_id"])
@@ -23,16 +23,16 @@ if __name__ == "__main__":
     valid_df = temp_df.iloc[valid_idxs]
     test_df = temp_df.iloc[test_idxs]
 
-    train_df.to_csv("./GRAZPEDWRI-DX_dataset/train_data.csv", index=False)
-    valid_df.to_csv("./GRAZPEDWRI-DX_dataset/valid_data.csv", index=False)
-    test_df.to_csv("./GRAZPEDWRI-DX_dataset/test_data.csv", index=False)
+    train_df.to_csv("./GRAZPEDWRI-DX/train_data.csv", index=False)
+    valid_df.to_csv("./GRAZPEDWRI-DX/valid_data.csv", index=False)
+    test_df.to_csv("./GRAZPEDWRI-DX/test_data.csv", index=False)
 
-    img_train_dir = "./GRAZPEDWRI-DX_dataset/data/images/train"
-    img_valid_dir = "./GRAZPEDWRI-DX_dataset/data/images/valid"
-    img_test_dir = "./GRAZPEDWRI-DX_dataset/data/images/test"
-    ann_train_dir = "./GRAZPEDWRI-DX_dataset/data/labels/train"
-    ann_valid_dir = "./GRAZPEDWRI-DX_dataset/data/labels/valid"
-    ann_test_dir = "./GRAZPEDWRI-DX_dataset/data/labels/test"
+    img_train_dir = "./GRAZPEDWRI-DX/data/images/train/"
+    img_valid_dir = "./GRAZPEDWRI-DX/data/images/valid/"
+    img_test_dir = "./GRAZPEDWRI-DX/data/images/test/"
+    ann_train_dir = "./GRAZPEDWRI-DX/data/labels/train/"
+    ann_valid_dir = "./GRAZPEDWRI-DX/data/labels/valid/"
+    ann_test_dir = "./GRAZPEDWRI-DX/data/labels/test/"
     for dir in [img_train_dir, img_valid_dir, img_test_dir, ann_train_dir, ann_valid_dir, ann_test_dir]:
         if os.path.exists(dir) == False:
             os.makedirs(dir)
