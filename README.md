@@ -21,7 +21,7 @@
 * The dataset is divided into training, validation, and testing set (70-20-10 %) according to the key `patient_id` stored in `dataset.csv`. The script then will move the files into the relative folder as it is represented here below.
 
 
-       GRAZPEDWRI-DX_dataset
+       GRAZPEDWRI-DX
           └── data   
                ├── meta.yaml
                ├── images
@@ -59,7 +59,7 @@ For example:
 ```
 * The path of the processed file is shown below:
 
-       GRAZPEDWRI-DX_dataset
+       GRAZPEDWRI-DX
           └── data   
                ├── meta.yaml
                ├── images
