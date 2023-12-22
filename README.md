@@ -148,3 +148,9 @@ You can set the value in the `./ultralytics/cfg/default.yaml`.
 ```
   python start_train.py --model ./ultralytics/cfg/models/v8/yolov8m_ECA.yaml --data_dir ./GRAZPEDWRI-DX/data/meta.yaml
 ```
+
+## Experimental Results
+
+<p align="center">
+  <img src="img/figure_result.jpg" width="1024" title="640">
+</p>
