@@ -124,7 +124,7 @@ You can set the value in the `./ultralytics/cfg/default.yaml`.
 | Key | Value | Description |
 | :---: | :---: | :---: |
 | model | None | path to model file, i.e. yolov8m.yaml, yolov8m_ECA.yaml |
-| data | None | path to data file, i.e. coco128.yaml |
+| data_dir | None | path to data file, i.e. coco128.yaml, meta.yaml |
 | epochs | 100 | number of epochs to train for |
 | patience | 50 | epochs to wait for no observable improvement for early stopping of training |
 | batch | 16 | number of images per batch (-1 for AutoBatch) |
