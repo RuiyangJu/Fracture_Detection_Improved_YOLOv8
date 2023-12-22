@@ -99,32 +99,10 @@ For example:
                          └── ...
   
 ## Methodology
-* I have modified the model architecture of YOLOv8 which adds Efficient Channel Attention (ECA).
-* The detailed modified file can be checked in `./ultralytics/cfg/models/v8/yolov8_ECA.yaml`, which is shown below:
-```
-head:
-  - [-1, 1, nn.Upsample, [None, 2, 'nearest']]
-  - [[-1, 6], 1, Concat, [1]]  # cat backbone P4
-  - [-1, 3, C2f, [512]]  # 12
-  - [-1, 1, ECAAttention, [512]]
-
-  - [-1, 1, nn.Upsample, [None, 2, 'nearest']]
-  - [[-1, 4], 1, Concat, [1]]  # cat backbone P3
-  - [-1, 3, C2f, [256]]  # 16 (P3/8-small)
-  - [-1, 1, ECAAttention, [256]]
-
-  - [-1, 1, Conv, [256, 3, 2]]
-  - [[-1, 12], 1, Concat, [1]]  # cat head P4
-  - [-1, 3, C2f, [512]]  # 20 (P4/16-medium)
-  - [-1, 1, ECAAttention, [512]]
-
-  - [-1, 1, Conv, [512, 3, 2]]
-  - [[-1, 9], 1, Concat, [1]]  # cat head P5
-  - [-1, 3, C2f, [1024]]  # 24 (P5/32-large)
-  - [-1, 1, ECAAttention, [1024]]
-
-  - [[17, 21, 25], 1, Detect, [nc]] 
-```
+* We modified the model architecture of YOLOv8 by adding four types of attention modules, including Shuffle Attention (SA), Efficient Channel Attention (ECA), Global Attention Mechanism (GAM), and ResBlock Convolutional Block Attention Module (ResCBAM).
+<p align="center">
+  <img src="img/figure_details.jpg" width="1024" title="details">
+</p>
   
 ## Experiments
 * I have provided a training set, test set and validation set containing a single image that you can run directly by following the steps in the example below.
