@@ -99,7 +99,7 @@ For example:
                          └── ...
   
 ## Methodology
-* We modified the model architecture of YOLOv8 by adding four types of attention modules, including Shuffle Attention (SA), Efficient Channel Attention (ECA), Global Attention Mechanism (GAM), and ResBlock Convolutional Block Attention Module (ResCBAM).
+* We modified the model architecture of YOLOv8 by adding four types of attention modules, including <b>Shuffle Attention (SA), Efficient Channel Attention (ECA), Global Attention Mechanism (GAM), and ResBlock Convolutional Block Attention Module (ResCBAM)</b>.
 <p align="center">
   <img src="img/figure_details.jpg" width="1024" title="details">
 </p>
