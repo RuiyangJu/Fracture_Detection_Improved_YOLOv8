@@ -4,6 +4,9 @@
   <img src="img/figure_architecture.jpg" width="1024" title="details">
 </p>
 
+## Citation
+If you find our paper useful in your research, please consider citing:
+
 ## Requirements
 * Linux (Ubuntu)
 * Python = 3.9
