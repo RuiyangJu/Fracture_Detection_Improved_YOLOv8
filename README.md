@@ -1,7 +1,7 @@
 # Improved YOLOv8 for Pediatric Wrist Fracture Detection
 ### Improved YOLOv8 architecture
 <p align="center">
-  <img src="img/figure_architecture.jpg" width="640" title="details">
+  <img src="img/figure_architecture.pdf" width="640" title="details">
 </p>
 
 ## Requirements
