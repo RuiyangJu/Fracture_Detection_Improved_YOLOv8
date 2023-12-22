@@ -161,24 +161,3 @@ You can set the value in the `./ultralytics/cfg/default.yaml`.
 ```
   python start_train.py --model ./ultralytics/cfg/models/v8/yolov8m_ECA.yaml --data_dir ./GRAZPEDWRI-DX/data/meta.yaml
 ```
-
-## Application
-### Run the App on the local
-* Before you run the webapp, you should put the `example_model.onnx` to the `webapp` folder.
-```
-  cd webapp
-```
-* Use gdown to download the example model for webapp:
-```
-  gdown https://github.com/RuiyangJu/x-ray_fracture_detection_yolo/releases/download/Example_Model/example_model.onnx
-```
-* And then you can use this app on your local PC by running it in the following step:
-```
-  streamlit run application.py
-```
-### Online Available
-You can access our app via the following URL:
-```
-https://fracture-detection-yolo.streamlit.app/
-```
-
