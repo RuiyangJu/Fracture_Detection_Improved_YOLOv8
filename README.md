@@ -1,4 +1,4 @@
-# YOLOv8-AM: YOLOv8 Based on Attention Mechanism for Pediatric Wrist Fracture Detection
+# YOLOv8-AM: YOLOv8 with Attention Mechanisms for Pediatric Wrist Fracture Detection
 <p align="center">
   <img src="img/figure_architecture.jpg" width="1024" title="details">
 </p>
