@@ -1,4 +1,9 @@
 # YOLOv8-AM: YOLOv8 with Attention Mechanisms for Pediatric Wrist Fracture Detection
+
+>[YOLOv8-AM: YOLOv8 with Attention Mechanisms for Pediatric Wrist Fracture Detection](https://arxiv.org/abs/2402.09329)
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/yolov8-am-yolov8-with-attention-mechanisms/object-detection-on-grazpedwri-dx)](https://paperswithcode.com/sota/object-detection-on-grazpedwri-dx?p=yolov8-am-yolov8-with-attention-mechanisms)
+
 <p align="center">
   <img src="img/figure_architecture.jpg" width="1024" title="details">
 </p>
