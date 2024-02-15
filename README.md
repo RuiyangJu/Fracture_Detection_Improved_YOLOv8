@@ -6,6 +6,13 @@
 ## Citation
 If you find our paper useful in your research, please consider citing:
 
+    @article{chien2024yolov8am,
+      title={YOLOv8-AM: YOLOv8 with Attention Mechanisms for Pediatric Wrist Fracture Detection},
+      author={Chien, Chun-Tse and Ju, Rui-Yang and Chou, Kuang-Yi and Lin, Chien-Sheng and Chiang, Jen-Shiun},
+      journal={arXiv preprint arXiv:2402.09329},
+      year={2024}
+    }
+
 ## Requirements
 * Linux (Ubuntu)
 * Python = 3.9
