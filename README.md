@@ -4,6 +4,11 @@
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/yolov8-am-yolov8-with-attention-mechanisms/object-detection-on-grazpedwri-dx)](https://paperswithcode.com/sota/object-detection-on-grazpedwri-dx?p=yolov8-am-yolov8-with-attention-mechanisms)
 
+## Architecture
+<p align="center">
+  <img src="img/figure_architecture.jpg" width="1024" title="details">
+</p>
+
 ## Performance
 | Model | Test Size | Param. | FLOPs | F1 Score | AP<sub>50</sub><sup>val</sup> | AP<sub>50-95</sub><sup>val</sup> | Speed |
 | :--: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -13,11 +18,6 @@
 | YOLOv8+GAM | 1024 | 49.29M | 183.5G | 0.65 | 64.26% | 41.00% | 12.7ms |
 | YOLOv8+ResGAM | 1024 | 49.29M | 183.5G | 0.64 | 64.98% | 41.75% | 18.1ms |
 | YOLOv8+ResCBAM | 1024 | 53.87M | 196.2G | 0.64 | 65.78% | 42.16% | 8.7ms |
-
-## Architecture
-<p align="center">
-  <img src="img/figure_architecture.jpg" width="1024" title="details">
-</p>
 
 ## Citation
 If you find our paper useful in your research, please consider citing:
