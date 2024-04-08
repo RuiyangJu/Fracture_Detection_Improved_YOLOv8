@@ -4,8 +4,15 @@
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/yolov8-am-yolov8-with-attention-mechanisms/object-detection-on-grazpedwri-dx)](https://paperswithcode.com/sota/object-detection-on-grazpedwri-dx?p=yolov8-am-yolov8-with-attention-mechanisms)
 
-## Abstract
-Wrist trauma and even fractures occur frequently in daily life, particularly among children who account for a significant proportion of fracture cases. Before performing surgery, surgeons often request patients to undergo X-ray imaging first and prepare for it based on the analysis of the radiologist. With the development of neural networks, You Only Look Once (YOLO) series models have been widely used in fracture detection as computer-assisted diagnosis (CAD). In 2023, Ultralytics presented the latest version of the YOLO models, which has been employed for detecting fractures across various parts of the body. Attention mechanism is one of the hottest methods to improve the model performance. This research work proposes YOLOv8-AM, which incorporates the attention mechanism into the original YOLOv8 architecture. Specifically, we respectively employ four attention modules, Convolutional Block Attention Module (CBAM), Global Attention Mechanism (GAM), Efficient Channel Attention (ECA), and Shuffle Attention (SA), to design the improved models and train them on GRAZPEDWRI-DX dataset. Experimental results demonstrate that the mean Average Precision at IoU 50 (mAP 50) of the YOLOv8-AM model based on ResBlock + CBAM (ResCBAM) increased from 63.6% to 65.8%, which achieves the state-of-the-art (SOTA) performance. Conversely, YOLOv8-AM model incorporating GAM obtains the mAP 50 value of 64.2%, which is not a satisfactory enhancement. Therefore, we combine ResBlock and GAM, introducing ResGAM to design another new YOLOv8-AM model, whose mAP 50 value is increased to 65.0%.
+## Performance
+| Model | Test Size | Method | Param. | FLOPs | F1 Score | AP<sub>50</sub><sup>val</sup> | AP<sub>50-95</sub><sup>val</sup> | Speed |
+| :--: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| YOLOv8 | 1024 | - | 43.61M | 164.9G | 0.62 | 63.58% | 40.40% | 7.7ms |
+| YOLOv8+SA | 1024 | - | 43.64M | 165.4G | 0.63 | 64.25% | 41.64% | 8.0ms |
+| YOLOv8+ECA | 1024 | - | 43.64M | 165.5G | 0.65 | 64.24% | 41.94% | 7.7ms |
+| YOLOv8+GAM | 1024 | - | 49.29M | 183.5G | 0.65 | 64.26% | 41.00% | 12.7ms |
+| YOLOv8+ResGAM | 1024 | - | 49.29M | 183.5G | 0.64 | 64.98% | 41.75% | 18.1ms |
+| YOLOv8+ResCBAM | 1024 | - | 53.87M | 196.2G | 0.64 | 65.78% | 42.16% | 8.7ms |
 
 ## Architecture
 <p align="center">
@@ -118,15 +125,8 @@ For example:
 <p align="center">
   <img src="img/figure_details.jpg" width="1024" title="details">
 </p>
-  
-## Experiments
-### Experimental Results
 
-<p align="center">
-  <img src="img/figure_result.jpg" width="640" title="640">
-</p>
-
-### Model Training
+## Training
 * We have provided a training set, test set and validation set containing a single image that you can run directly by following the steps in the example below.
 * Before training the model, make sure the path to the data in the `./GRAZPEDWRI-DX/data/meta.yaml` file is correct.
 ```
