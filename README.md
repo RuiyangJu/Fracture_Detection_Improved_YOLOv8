@@ -164,7 +164,7 @@ You can set the value in the `./ultralytics/cfg/default.yaml`.
 ```
   python start_train.py --model ./ultralytics/cfg/models/v8/yolov8m.yaml --data_dir ./GRAZPEDWRI-DX/data/meta.yaml
 ```
-* Example Traning Steps (yolov8m_ECA):
+* Example Train & Val Steps (yolov8m_ECA):
 ```
   python start_train.py --model ./ultralytics/cfg/models/v8/yolov8m_ECA.yaml --data_dir ./GRAZPEDWRI-DX/data/meta.yaml
 ```
