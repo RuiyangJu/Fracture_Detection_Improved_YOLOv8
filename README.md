@@ -160,7 +160,7 @@ You can set the value in the `./ultralytics/cfg/default.yaml`.
 | weight_decay | 0.0005 | optimizer weight decay 5e-4 |
 | val | True | validate/test during training |
 
-* Example Traning Steps (yolov8m):
+* Example Train & Val Steps (yolov8m):
 ```
   python start_train.py --model ./ultralytics/cfg/models/v8/yolov8m.yaml --data_dir ./GRAZPEDWRI-DX/data/meta.yaml
 ```
