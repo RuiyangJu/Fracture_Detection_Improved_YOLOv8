@@ -126,7 +126,7 @@ For example:
   <img src="img/figure_details.jpg" width="1024" title="details">
 </p>
 
-## Training
+## Train & Validate
 * We have provided a training set, test set and validation set containing a single image that you can run directly by following the steps in the example below.
 * Before training the model, make sure the path to the data in the `./GRAZPEDWRI-DX/data/meta.yaml` file is correct.
 ```
