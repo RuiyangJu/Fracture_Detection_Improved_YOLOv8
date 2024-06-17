@@ -1,4 +1,4 @@
-# YOLOv8-AM
+# YOLOv8-AM for Fracture Detection
 
 >[YOLOv8-AM: YOLOv8 with Attention Mechanisms for Pediatric Wrist Fracture Detection](https://arxiv.org/abs/2402.09329)
 
