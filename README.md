@@ -31,7 +31,7 @@ If you find our paper useful in your research, please consider citing:
       year={2024}
     }
 
-**Journal version (under view):**
+**Journal version (under review):**
 
 
 ## Requirements
