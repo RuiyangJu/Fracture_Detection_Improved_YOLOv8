@@ -22,12 +22,17 @@
 ## Citation
 If you find our paper useful in your research, please consider citing:
 
+**Conference version (accepted by ICONIP 2024)**
+
     @article{chien2024yolov8am,
       title={YOLOv8-AM: YOLOv8 with Attention Mechanisms for Pediatric Wrist Fracture Detection},
        author={Chun-Tse Chien and Rui-Yang Ju and Kuang-Yi Chou and Enkaer Xieerke and Jen-Shiun Chiang},
       journal={arXiv preprint arXiv:2402.09329},
       year={2024}
     }
+
+**Journal version (under view):**
+
 
 ## Requirements
 * Linux (Ubuntu)
