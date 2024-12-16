@@ -42,12 +42,6 @@ If you find our paper useful in your research, please consider citing:
   }
 ```
 
-## Requirements
-* Linux (Ubuntu)
-* Python = 3.9
-* Pytorch = 1.13.1
-* NVIDIA GPU + CUDA CuDNN
-
 ## Environment
 ```
   pip install -r requirements.txt
