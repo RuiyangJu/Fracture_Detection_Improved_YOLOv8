@@ -56,7 +56,7 @@ If you find our paper useful in your research, please consider citing:
     python split.py
   ```
 * The dataset is divided into training, validation, and testing set (70-20-10 %) according to the key `patient_id` stored in `dataset.csv`.
-  You can download our split dataset [here](https://1drv.ms/u/s!Ap6uuRvdVcJWbQfOvTHl5hMuA5o?e=geFa32).
+  You can download our split dataset [here](https://1drv.ms/u/s!Ap6uuRvdVcJWbXtfIFYUvzOMKXQ).
 * The script then will move the files into the relative folder as it is represented here below.
 
 
