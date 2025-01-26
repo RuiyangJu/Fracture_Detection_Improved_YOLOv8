@@ -37,8 +37,8 @@ If you find our paper useful in your research, please consider citing:
 **Journal version (under review):**
 ```
   @article{chien2024yolov8,
-    title={Yolov8-am: Yolov8 with attention mechanisms for pediatric wrist fracture detection},
-    author={Chien, Chun-Tse and Ju, Rui-Yang and Chou, Kuang-Yi and Lin, Chien-Sheng and Chiang, Jen-Shiun},
+    title={YOLOv8-AM: YOLOv8 Based on Effective Attention Mechanisms for Pediatric Wrist Fracture Detection}, 
+    author={Chien, Chun-Tse and Ju, Rui-Yang and Chou, Kuang-Yi and Xieerke, Enkaer and Chiang, Jen-Shiun},
     journal={arXiv preprint arXiv:2402.09329},
     year={2024}
   }
