@@ -4,7 +4,7 @@
 
 ## :tada::tada::tada: NEWS: [Our split dataset is available now !!!](https://ruiyangju.github.io/GRAZPEDWRI-DX_JU/)
 
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/yolov8-am-yolov8-with-attention-mechanisms/object-detection-on-grazpedwri-dx)](https://paperswithcode.com/sota/object-detection-on-grazpedwri-dx?p=yolov8-am-yolov8-with-attention-mechanisms)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/yolov8-rescbam-yolov8-based-on-an-effective/fracture-detection-on-grazpedwri-dx)](https://paperswithcode.com/sota/fracture-detection-on-grazpedwri-dx?p=yolov8-rescbam-yolov8-based-on-an-effective)
 
 ## Architecture
 <p align="center">
