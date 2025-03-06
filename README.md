@@ -34,7 +34,7 @@ If you find our paper useful in your research, please consider citing:
   }
 ```
 
-**Journal version (under review):**
+**Journal version (accepted by IEEE Access 2025):**
 ```
   @article{chien2024yolov8,
     title={YOLOv8-AM: YOLOv8 Based on Effective Attention Mechanisms for Pediatric Wrist Fracture Detection}, 
