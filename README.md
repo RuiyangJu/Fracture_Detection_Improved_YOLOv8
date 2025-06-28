@@ -26,11 +26,13 @@ If you find our paper useful in your research, please consider citing:
 
 **Conference version (accepted by ICONIP 2024)**
 ```
-  @article{ju2024yolov8,
-    title={YOLOv8-ResCBAM: YOLOv8 Based on An Effective Attention Module for Pediatric Wrist Fracture Detection},
+  @inproceedings{ju2025yolov8,
+    title={Yolov8-rescbam: Yolov8 based on an effective attention module for pediatric wrist fracture detection},
     author={Ju, Rui-Yang and Chien, Chun-Tse and Chiang, Jen-Shiun},
-    journal={arXiv preprint arXiv:2409.18826},
-    year={2024}
+    booktitle={International Conference on Neural Information Processing},
+    pages={403--416},
+    year={2025},
+    organization={Springer}
   }
 ```
 
