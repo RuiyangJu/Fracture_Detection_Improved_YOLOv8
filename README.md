@@ -1,6 +1,6 @@
 # YOLOv8-AM for Fracture Detection
 
->[DKDS: A Benchmark Dataset of Degraded Kuzushiji Documents with Seals]()
+>[YOLOv8-AM: YOLOv8 with Attention Mechanisms for Pediatric Wrist Fracture Detection](https://arxiv.org/abs/2402.09329)
 
 ## :tada::tada::tada: NEWS: [Our split dataset is available now !!!](https://ruiyangju.github.io/GRAZPEDWRI-DX_JU/)
 
